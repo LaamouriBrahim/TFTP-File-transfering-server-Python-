@@ -5,11 +5,6 @@ TFTP Module.
 import socket
 import sys
 import threading
-########################################################################
-#                          COMMON ROUTINES                             #
-########################################################################
-
-# todo
 
 ########################################################################
 #                             SERVER SIDE                              #
@@ -255,6 +250,3 @@ def get(addr, filename, targetname, blksize, timeout):
 	file.close()
 
 	pass
-	
-
-# EOF
